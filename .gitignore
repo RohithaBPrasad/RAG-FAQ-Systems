@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.vscode/
+data/*.npy
+data/faiss_index.idx
+data/df.pkl
