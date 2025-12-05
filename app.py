@@ -6,7 +6,7 @@ import pandas as pd
 
 # Ensure Python can find your src folder
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
-from rag_backend import init_backend, generate_answer_with_groq
+from src.backend import init_backend, generate_answer_with_groq
 
 # Streamlit page config
 st.set_page_config(page_title="RAG FAQ Chat", layout="wide")
